@@ -17,7 +17,7 @@ const inputStyle = {
 };
 
 const labelStyle = {
-  display: "block",
+  display: "block", 
   marginBottom: "6px",
   fontSize: "0.82rem",
   fontWeight: 600,

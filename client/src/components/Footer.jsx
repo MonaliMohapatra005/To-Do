@@ -53,6 +53,7 @@ const Footer = () => {
             </a>
           ))}
         </div> */}
+        
 
         {/* Copyright */}
         <p style={{ color: "rgba(255,255,255,0.35)", fontSize: "0.74rem", margin: 0 }}>

@@ -11,6 +11,7 @@ const Navbar = () => {
     else if (hour < 17) setGreeting("Good Afternoon");
     else setGreeting("Good Evening");
 
+    
     const handleScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);

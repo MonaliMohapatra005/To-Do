@@ -4,4 +4,4 @@ export const getZodError = (errors) => {
         newError[err.path[0]] = err.message
     });
     return newError
-}
+} 

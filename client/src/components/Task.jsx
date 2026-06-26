@@ -16,7 +16,7 @@ const Task = ({ props, onDelete }) => {
         }
         else if (props.status === 'Failed') {
             setBadgecolor('red')
-        }
+        } 
     }, [props.status])
 
     const handleDelete = async () => {

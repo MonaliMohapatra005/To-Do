@@ -19,4 +19,4 @@ export const showToast = (type, message) => {
     }else{
         toast(message, config)
     }
-}
+} 

@@ -222,7 +222,7 @@ const TaskListPage = () => {
                     </button>
                   </div>
                 </div>
-              );
+              ); 
             })}
           </div>
         ) : (

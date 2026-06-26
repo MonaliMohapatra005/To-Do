@@ -1,5 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-
+ 
 const TaskSchema = new Schema({
     title: {
         type: String,

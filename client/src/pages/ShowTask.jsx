@@ -302,7 +302,7 @@ const ShowTask = () => {
               <label style={labelStyle}>Status</label>
               <select
                 onChange={handleInput}
-                name="status"
+                name="status" 
                 defaultValue={formData?.status || ""}
                 style={{ ...inputStyle, cursor: "pointer" }}
                 onFocus={(e) => (e.target.style.borderColor = "#7c3aed")}
